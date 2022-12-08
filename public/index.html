@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>OpenAi-App</title>
+</head>
+<body>
+    <div class="navbar">
+        <div style="margin-top: 2.6vh !important;">
+            <h3 style="float: left;margin-left: 4vh !important;">OpenAi Demo app</h3><h3 style="float: right;margin-right: 4vh !important;"><a target="_blank" href="https://beta.openai.com/docs">OpenAi Docs</a></h3>
+        </div>
+    </div>
+    <div class="content">
+        <div style="z-index: 1;position: relative;top: 20vh !important;">
+            <h3 style="text-align: center; color: #393E46;">Write something to begin</h3>
+            <div class="searchWrapper">
+                <input type="text" id="keyword" autofocus/>
+            </div>
+            <table style="margin-left: auto !important; margin-right: auto !important;margin-top: 2vh !important;">
+                <tr>
+                    <td>
+                        <select id="sel">
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button id="btn">Create</button>
+                    </td>
+                </tr>
+            </table>
+            <div id="loading"><img src="images/loading.gif" /></div>
+            
+        </div>
+        
+    </div>
+    <div id="res"></div>
+    <script src="js/main.js"></script>
+    
+</body>
+<footer>
+        <div style="padding-top: 2.6vh !important; color: whitesmoke;">
+            <table style="margin-left: auto !important; margin-right: auto !important;">
+                <tr>
+                    <td style="width: 10vh !important;"><b>GitHub: </b></td><td>github.com/SuppRanoo/OpenAI-App</td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</html>
